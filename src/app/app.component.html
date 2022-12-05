@@ -1,0 +1,28 @@
+<main class="flex flex-col items-center justify-center h-screen">
+  <section class="flex flex-row space-x-4 mb-4">
+    <a class="bg-[#008744] rounded px-4 py-2 text-white font-semibold" href="/en-US">English</a>
+    <a class="bg-[#0057E7] rounded px-4 py-2 text-white font-semibold" href="/es">Español</a>
+    <a class="bg-[#D62D20] rounded px-4 py-2 text-white font-semibold" href="/fr">Français</a>
+  </section>
+
+  <div class=>
+    <p class="bg-[#E51419] rounded px-4 text-white font-semibold" i18n>Hello there. This is a code demo for
+      Internationalization in Angular.</p>
+
+    <input class="w-1/2 rounded py-1.5 px-4 focus:bg-indigo-100 focus:transition ease-in duration-150 border-2 mt-2"
+           i18n-placeholder placeholder="Name"><br>
+
+    <section style="margin-top: 20px">
+      <label class="bg-[#E51419] rounded px-4 text-white font-semibold" i18n
+             style="margin-right: 10px">What's your
+        level of expertise?</label>
+      <select
+        class="w-full rounded py-1.5 px-4 focus:bg-indigo-100 focus:transition ease-in duration-150 border-2 mt-2"
+        i18n i18n-placeholder placeholder="Expertise">
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="expert">Expert</option>
+      </select>
+    </section>
+  </div>
+</main>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="8304186443752356614" datatype="html">
+        <source>Hello there. This is a code demo for Internationalization in Angular.</source>
+        <target>Bonjour. Ceci est une démonstration de code pour l'internationalisation dans Angular.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8953033926734869941" datatype="html">
+        <source>Name</source>
+        <target>Nom</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8645331185220511890" datatype="html">
+        <source>What&apos;s your level of expertise?</source>
+        <target>Quel est votre niveau d'expérience ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9217165227473626077" datatype="html">
+        <source>Expertise</source>
+        <target>Compétence</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8585741515362515549" datatype="html">
+        <source><x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option value=&quot;beginner&quot;&gt;"/>
+          Beginner
+          <x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/>
+          <x id="START_TAG_OPTION_1" ctype="x-option_1" equiv-text="&lt;option value=&quot;intermediate&quot;&gt;"/>
+          Intermediate
+          <x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/>
+          <x id="START_TAG_OPTION_2" ctype="x-option_2" equiv-text="&lt;option value=&quot;expert&quot;&gt;"/>Expert
+          <x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/>
+        </source>
+
+        <target><x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option value=&quot;beginner&quot;&gt;"/>
+          Débutant
+          <x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/>
+          <x id="START_TAG_OPTION_1" ctype="x-option_1" equiv-text="&lt;option value=&quot;intermediate&quot;&gt;"/>
+          Intermédiaire
+          <x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/>
+          <x id="START_TAG_OPTION_2" ctype="x-option_2" equiv-text="&lt;option value=&quot;expert&quot;&gt;"/>Expert
+          <x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">22,24</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

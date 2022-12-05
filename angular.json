@@ -4,6 +4,13 @@
   "newProjectRoot": "projects",
   "projects": {
     "i18n-demo": {
+      // Define locales in the build configuration
+      "i18n": {
+        "locales": {
+          "es": "src/locale/messages.es.xlf",
+          "fr": "src/locale/messages.fr.xlf"
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -56,6 +63,14 @@
               ],
               "outputHashing": "all"
             },
+            // set the localize build configuration option
+            // this will instruct the AOT compiler to use the translation configuration
+            "es": {
+              "localize": ["es"]
+            },
+            "fr": {
+              "localize": ["fr"]
+            },
             "development": {
               "buildOptimizer": false,
               "optimization": false,
@@ -72,6 +87,13 @@
           "configurations": {
             "production": {
               "browserTarget": "i18n-demo:build:production"
+            },
+            // Configurations for the production build
+            "es": {
+              "browserTarget": "i18n-demo:build:es"
+            },
+            "fr": {
+              "browserTarget": "i18n-demo:build:fr"
             },
             "development": {
               "browserTarget": "i18n-demo:build:development"
